@@ -10,10 +10,10 @@ import javax.servlet.ServletException;
 
 @SpringBootApplication
 @EnableWebMvc
-public class Blue_LifeApplication extends SpringBootServletInitializer {
+public class BlueLifeApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(Blue_LifeApplication.class, args);
+        SpringApplication.run(BlueLifeApplication.class, args);
     }
 
 
