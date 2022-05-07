@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Blue Life
+
+logging:
+  level:
+    root: DEBUG
+
+
