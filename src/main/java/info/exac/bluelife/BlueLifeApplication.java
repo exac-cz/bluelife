@@ -10,16 +10,10 @@ import javax.servlet.ServletException;
 
 @SpringBootApplication
 @EnableWebMvc
-public class BlueLifeApplication extends SpringBootServletInitializer {
+public class BlueLifeApplication  {
 
     public static void main(String[] args) {
         SpringApplication.run(BlueLifeApplication.class, args);
-    }
-
-
-    @Override
-    public void onStartup(ServletContext servletContext) throws ServletException {
-
     }
 
 }
