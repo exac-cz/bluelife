@@ -26,7 +26,7 @@ class HelloControllerTest {
     @Test
     void helloAsText() {
         String result = testRestTemplate.getForObject(BASE_URI + ":" + port + "/hello/text", String.class);
-        assertThat(result).isEqualTo("\"Hello\"");
+        assertThat(result).isEqualTo("Hello");
     }
 
 
